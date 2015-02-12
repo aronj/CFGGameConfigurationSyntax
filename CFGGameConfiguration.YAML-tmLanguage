@@ -12,7 +12,8 @@ patterns:
 
 - comment: double quoted string
   name: string.quoted.double.cfg
-  match: \"[^\"]+\"
+  match: \"[^\"]*\"
+
 
 - comment: various keywords
   name: entity.other.attribute-name.cfg
